@@ -689,3 +689,20 @@ body {
     transform: translateY(-5px) scale(1.03);
     box-shadow: 0 12px 35px rgba(255,105,180,0.25);
 }
+
+.spotify-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 26px; /* tinggi kiraan dari 300x80 ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.spotify-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* boleh adjust ikut kehendak */
+    border: 0;
+}
