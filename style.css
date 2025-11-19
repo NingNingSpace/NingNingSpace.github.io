@@ -740,7 +740,6 @@ body {
     text-decoration: underline;
 }
 
-   
 .anime-list {
     list-style: none;
     padding-left: 0;
@@ -748,16 +747,17 @@ body {
 }
 
 .anime-item {
-    margin-bottom: 8px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 8px; /* jarak rating dengan nama anime */
+    margin-bottom: 8px;
 }
 
 .anime-title {
     font-weight: bold;
-    color: #007bff;
+    color: #2aa74c; /* hijau bold */
     text-decoration: none;
+    cursor: pointer; /* nampak clickable */
 }
 
 .anime-title:hover {
@@ -768,5 +768,4 @@ body {
     color: gold;
     font-size: 18px;
 }
-
 
