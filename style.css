@@ -776,17 +776,15 @@ body {
 }
 
 .kdrama-item {
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: space-between; /* nama kiri, genre kanan */
-    align-items: center;
+    margin-bottom: 6px;
 }
 
 .kdrama-title {
     font-weight: bold;
-    color: #2aa74c; /* hijau bold */
+    color: #2aa74c;
     text-decoration: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 .kdrama-title:hover {
@@ -797,5 +795,6 @@ body {
     font-style: italic;
     color: #555;
     font-size: 14px;
+    margin-left: 8px; /* jarak dengan nama drama */
+    display: inline-block;
 }
-
