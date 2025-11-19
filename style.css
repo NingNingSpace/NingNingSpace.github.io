@@ -531,6 +531,38 @@ body {
     }
 }
 
+/* ============================================
+   SECTION IMAGES (for Who Am I, Personality, Dreams)
+   ============================================ */
+.section-img {
+    width: 150px;       /* kecil & muat dalam card */
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-img:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 12px 35px rgba(255,105,180,0.3);
+}
+
+.section-img-row {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 100%;               /* pastikan row occupy full width */
+    text-align: center;        /* backup centering for inline items */
+}
+
+
+
 @media (max-width: 480px) {
     .main-title { font-size: 2em; }
     .page-title { font-size: 2em; }
@@ -550,15 +582,27 @@ body {
         padding: 6px 12px;
         font-size: 0.75em;
     }
+
 /* ============================================
-   SECTION IMAGES (for Who Am I, Personality, Dreams)
+   SECTION IMAGES (Who Am I, Personality, Dreams)
    ============================================ */
+.section-img-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;           /* JARAK ANTARA GAMBAR — kecil & cantik */
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
 .section-img {
-    width: 48%;
-    margin: 1%;
+    width: 150px;
+    height: 150px;
     border-radius: 15px;
     object-fit: cover;
-    display: inline-block;
+    margin: 0;           /* REMOVE ALL MARGIN */
+    display: block;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -567,13 +611,8 @@ body {
     transform: translateY(-5px) scale(1.03);
     box-shadow: 0 12px 35px rgba(255,105,180,0.3);
 }
-.card-img {
-    width: 100%;
-    height: 150px; /* adjust as needed */
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
+
+
 /* ============================================
    SECTION MINI CARDS (like tarot style)
    ============================================ */
