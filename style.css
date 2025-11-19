@@ -799,11 +799,3 @@ body {
     display: inline-block;
 }
 
-/* SOCIAL MEDIA MINI CARDS FIX */
-.social-card img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-}
