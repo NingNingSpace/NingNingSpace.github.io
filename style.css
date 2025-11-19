@@ -798,3 +798,24 @@ body {
     margin-left: 8px; /* jarak dengan nama drama */
     display: inline-block;
 }
+
+/* SOCIAL MEDIA MINI CARDS FIX */
+.social-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    gap: 20px;
+    justify-items: center;  /* center each card */
+    margin-top: 20px;
+}
+
+.social-card {
+    text-align: center;
+}
+
+.social-card img {
+    width: 120px;          /* adjust size here */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;   /* cute rounded corners */
+    display: block;
+}
