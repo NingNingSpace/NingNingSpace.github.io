@@ -690,18 +690,17 @@ body {
     box-shadow: 0 12px 35px rgba(255,105,180,0.25);
 }
 
-.watch-btn {
-    display: inline-block;
-    margin-left: 10px;
-    padding: 5px 12px;
-    background-color: #ff6b81;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 14px;
-    transition: background-color 0.2s;
+/* =========================
+   MOVIE LINK STYLE
+   ========================= */
+.content-card ul li a {
+    display: block;        /* supaya link occupy full width dan jarak terjaga */
+    color: inherit;        /* guna warna teks asal, tak tukar warna */
+    text-decoration: none; /* buang underline */
+    padding: 2px 0;        /* beri sedikit ruang atas bawah */
+    transition: color 0.2s;
 }
 
-.watch-btn:hover {
-    background-color: #ff4757;
+.content-card ul li a:hover {
+    color: #ff6b81; /* highlight bila hover, optional */
 }
