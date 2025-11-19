@@ -690,3 +690,30 @@ body {
     box-shadow: 0 12px 35px rgba(255,105,180,0.25);
 }
 
+/* GRID UNTUK HOBBY CARDS */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 25px; /* bagi jarak jauh sikit antara cards */
+    margin-top: 20px;
+}
+
+/* SET STANDARD SIZE UNTUK SEMUA CARDS */
+.content-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 300px;
+    min-width: 280px;  /* penting! bagi semua card sama lebar minimum */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+/* khusus utk gambar dalam Reading Ebook card */
+.content-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px; /* bagi jarak lebih luas */
+}
+
