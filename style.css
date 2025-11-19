@@ -717,3 +717,29 @@ body {
     margin-right: 15px; /* bagi jarak lebih luas */
 }
 
+
+.watch-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fake-btn {
+    background-color: #ffced9;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: default;
+    opacity: 0.8;
+}
+
+.story-title {
+    font-weight: bold;
+    text-decoration: none;
+    color: #bf1e6e;
+}
+
+.story-title:hover {
+    text-decoration: underline;
+}
