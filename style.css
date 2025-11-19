@@ -717,11 +717,3 @@ body {
     margin-right: 15px; /* bagi jarak lebih luas */
 }
 
-.content-card img.left-img {
-    width: 120px;          /* kecik, confirm elok */
-    height: auto;
-    float: left;
-    object-fit: cover;     /* kalau gambar pelik shape, dia rapikan */
-    margin-right: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;   /* biar cute */
