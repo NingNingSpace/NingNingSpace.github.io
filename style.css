@@ -690,17 +690,3 @@ body {
     box-shadow: 0 12px 35px rgba(255,105,180,0.25);
 }
 
-/* =========================
-   MOVIE LINK STYLE
-   ========================= */
-.content-card ul li a {
-    display: block;        /* supaya link occupy full width dan jarak terjaga */
-    color: inherit;        /* guna warna teks asal, tak tukar warna */
-    text-decoration: none; /* buang underline */
-    padding: 2px 0;        /* beri sedikit ruang atas bawah */
-    transition: color 0.2s;
-}
-
-.content-card ul li a:hover {
-    color: #ff6b81; /* highlight bila hover, optional */
-}
