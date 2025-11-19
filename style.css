@@ -799,41 +799,6 @@ body {
     display: inline-block;
 }
 
-/* GRID 2x2 UNTUK WHAT I SHARE */
-.share-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px; /* jarak antara gambar */
-    margin-top: 20px;
-    justify-items: center;
-}
-
-/* Gambar + caption */
-.share-item {
-    text-align: center;
-}
-
-/* Besarkan gambar sikit – tapi masih dalam layout */
-.share-item img {
-    width: 90%;
-    max-width: 260px; /* besar sikit dari social-card */
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    transition: 0.3s ease;
-}
-
-/* hover effect manja */
-.share-item img:hover {
-    transform: scale(1.03);
-}
-
-.share-item p {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #444;
-}
 
 /* YOUTUBE VIDEO BOX */
 .youtube-box {
@@ -851,4 +816,5 @@ body {
     height: 400px; /* tinggi sesuai, nampak full */
     border: none;
 }
+
 
