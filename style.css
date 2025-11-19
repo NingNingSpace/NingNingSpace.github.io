@@ -717,3 +717,10 @@ body {
     margin-right: 15px; /* bagi jarak lebih luas */
 }
 
+.left-img {
+    float: left;         /* gambar berada di kiri */
+    width: 150px;        /* saiz gambar, adjust ikut keperluan */
+    height: auto;        /* maintain aspect ratio */
+    margin-right: 15px;  /* jarak antara gambar dan teks */
+    margin-bottom: 10px; /* supaya jarak bawah ada bila teks turun baris baru */
+}
